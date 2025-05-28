@@ -43,22 +43,26 @@
   .search {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
   }
 
-  .search input[type="search"],
-  .search button {
+  .search input[type="search"] {
     height: 50px;          /* Set height */
-    font-size: 16px;       /* Bigger text */
+    width: 400px;          /* Adjusted width */
+    font-size: 18px;       /* Bigger text */
     padding: 0 15px;       /* Padding inside */
     border-radius: 8px;    /* Optional: Rounded corners */
     border: 1px solid #ccc;
   }
 
   .search button {
+    height: 50px;          /* Match input height */
+    padding: 0 20px;       /* Wider button */
+    font-size: 18px;
     background-color: #007bff; /* Blue background */
     color: white;
     border: none;
+    border-radius: 8px;
     cursor: pointer;
   }
 
@@ -77,10 +81,6 @@
   <input type="search" id="search-box" name="search" placeholder="Search...">
   <button type="submit">🔍</button>
 </div>
-
-
-
-
 
 
 				
